@@ -36,21 +36,21 @@ main{
 .photo{
     color: #fff;
     width: 75%;
-    margin-left: 133px;
+    margin-left: 127px;
 }
 .line{
     border-left: 2px solid white;
-    height: 400px;
+    height: 435px;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 32%;
     position: absolute;
 }
 .line-2{
     border-left: 2px solid white;
     height: 400px;
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 160%;
     height:400px;
 }
@@ -64,28 +64,41 @@ main{
 .photo-1{
     color: #fff;
     width: 65%;
-    margin-left:115px;
+    margin-left: 115px;
+    margin-top:92px;
     
 }
 .photo-2{
     color: #fff;
     width: 100%;
+    margin-top: 193px;
+    margin-left: 127px;
+
 }
 .photo-3{
     color: #fff;
-    width: 100%;
+    width: 75%;
+    margin-left:115px;
+    margin-top: 250px;
+    
 }
 .photo-4{
     color: #fff;
-    width: 100%;
+    width: 67%;
+    margin-left: 127px;
+    margin-top:348px;
 }
 .photo-5{
     color: #fff;
-    width: 100%;
+    width: 65%;
+    margin-left:115px;
+    margin-top: 428px;
 }
 .photo-6{
     color: #fff;
-    width: 100%;
+    width: 67%;
+    margin-left: 127px;
+    margin-top: 495px;
 }
 .text{
     color: #fff;
@@ -97,6 +110,7 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 120px;
+    margin-top: 40px;
 }
 .head-1{
     font-family: 'Montserrat', sans-serif;
@@ -122,6 +136,7 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
+    margin-top:190px;
 }
 .head-2{
     font-family: 'Montserrat', sans-serif;
@@ -135,9 +150,9 @@ main{
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     line-height: 25px;
-
-    font-size: 15px;}
-    .btn-2{
+    font-size: 15px;
+}
+.btn-2{
         font-family: Montserrat;
         font-size: 20px;
         border-radius: 3px;
@@ -163,7 +178,7 @@ main{
     line-height: 25px;
     margin-left: 80px;
 
-    font-size: 20px;}
+    font-size: 15px;}
     .btn-3{
         font-family: Montserrat;
         font-size: 20px;
@@ -175,6 +190,7 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
+    margin-top: 335px;
 }
 .head-4{
     font-family: 'Montserrat', sans-serif;
@@ -199,6 +215,7 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 120px;
+    margin-top:410px;
 }
 .head-5{
     font-family: 'Montserrat', sans-serif;
@@ -222,31 +239,35 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
+    margin-top: 490px;
 }
 .head-6{
     font-family: 'Montserrat', sans-serif;
-
     font-size: 40px;
-    width: 381px;
+    margin-left: 80px;
+   
 }
 .para-6{
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     line-height: 25px;
-
+    margin-left: 85px;
     font-size: 15px;}
-    .btn-6{
-        font-family: 'Montserrat', sans-serif;
-
-        font-size: 20px;
-        border-radius: 3px;
-        margin-top:20px;
+ .btn-6{
+        
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top:20px;
+    margin-left: 80px;
     }
 
  .text-7{
     color: #fff;
     width: 50%;
     margin-left: 120px;
+    margin-top: 240px;
         }
         .head-7{
             font-family: 'Montserrat', sans-serif;
@@ -276,6 +297,7 @@ main{
     font-size: 20px;
     margin-left: 60px;
     font-family: 'Montserrat', sans-serif;
+    margin-top : 540px;
 
     font-weight: bold;
     border-radius: 25px;
