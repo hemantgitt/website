@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -273,7 +273,7 @@ main{
     display: grid;
     grid-template-rows: 130px 60px 60px 60px 60px 60px;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -795px;
+    margin-top: -695px;
    
 }
 .add{
@@ -288,14 +288,14 @@ main{
     top: 13px;
     font-size:15px;
     margin-left: 10px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
 
 }
 .add-2{
  
     font-size:11px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     color: aqua;
 
@@ -314,12 +314,12 @@ main{
 .plog{
    
     font-size:15px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
 }
 .plog-1{
     font-size:11px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     margin-top: 25px;
     color: aqua;
@@ -335,7 +335,7 @@ main{
 }
 .suport{
     font-size:15px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     margin-top: 26px;
 }
@@ -343,7 +343,7 @@ main{
     margin-top:20px;
     height:30px;
     font-size:11px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     margin-top: 20px;
     color: aqua;
@@ -355,7 +355,7 @@ main{
     margin-top: 35px;
    
     display: inline-block; 
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
      width: 100%; 
  }
  .navline ul{
@@ -381,7 +381,7 @@ main{
     color: white;
     text-align: center;
     margin-top: 75px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     font-size: 15px;
 }
