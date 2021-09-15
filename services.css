@@ -131,6 +131,11 @@ main{
     font-size: 15px;
     border-radius: 30px;
     margin-top:20px;
+    
+    
+    
+    width: 135px;
+    height:50px;
 }
 .text-2{
     color: #fff;
@@ -154,9 +159,11 @@ main{
 }
 .btn-2{
         font-family: Montserrat;
-        font-size: 20px;
-        border-radius: 3px;
         margin-top:20px;
+        font-size: 15px;
+        border-radius: 30px;
+        width: 135px;
+        height:50px;
     }
 .text-3{
     color: #fff;
@@ -181,8 +188,11 @@ main{
     font-size: 15px;}
     .btn-3{
         font-family: Montserrat;
-        font-size: 20px;
-        border-radius: 3px;
+        
+        font-size: 15px;
+        border-radius: 30px;
+        width: 135px;
+        height:50px;
         margin-top:20px;
         margin-left: 80px;
     }
@@ -206,10 +216,12 @@ main{
     font-size: 15px;}
     .btn-4{
         font-family: Montserrat;
-        font-size: 20px;
-        border-radius: 3px;
-        margin-top:20px;
+         margin-top:20px;
         margin-left: 80px;
+        font-size: 15px;
+        border-radius: 30px;
+        width: 135px;
+        height:50px;
     }
 .text-5{
     color: #fff;
@@ -231,8 +243,10 @@ main{
     .btn-5{
         font-family: 'Montserrat', sans-serif;
 
-        font-size: 20px;
-        border-radius: 3px;
+        font-size: 15px;
+        border-radius: 30px;
+        width: 135px;
+        height:50px;
         margin-top:20px;
     }
 .text-6{
@@ -257,8 +271,10 @@ main{
         
     
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    border-radius: 3px;
+    font-size: 15px;
+        border-radius: 30px;
+        width: 135px;
+        height:50px;
     margin-top:20px;
     margin-left: 80px;
     }
@@ -284,9 +300,10 @@ main{
         }
             .btn-7{
                 font-family: 'Montserrat', sans-serif;
-
-                font-size: 20px;
-                border-radius: 3px;
+                font-size: 15px;
+                border-radius: 30px;
+                width: 135px;
+                height:50px;
                 margin-top:20px;
             }
         
@@ -294,25 +311,36 @@ main{
     background-color:  #2F3B4A;
     grid-column: 1/-1;
     color: white;
-    font-size: 20px;
     margin-left: 60px;
-    font-family: 'Montserrat', sans-serif;
     margin-top : 540px;
-
-    font-weight: bold;
     border-radius: 25px;
-    height: 260px;
-   
-    margin-right:  70px;
+    height: 240px;
+    margin-right: 70px;
+   box-shadow: 10px 10px  10px  10px black;
 }
 .let{
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 380px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .lete{
+    font-size: 15px;
     margin-left: 50px;
     margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.ertphoto{
+    /* display: inline-block; */
+   
+    float:right;
+    margin-top: -140px;
+    margin-right: 80px;
+   
+
 }
 
 
