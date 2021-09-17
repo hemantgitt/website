@@ -94,22 +94,22 @@ main{
     width: 75%;
     margin-left: 127px;
     padding-top: 90px;
-}
-.line{
+/* }
+ .line{
     border-left: 2px solid white;
     height: 435px;
     position: absolute;
     left: 50%;
     top: 32%;
-    position: absolute;
-}
-.line-2{
+    position: absolute; 
+} */
+/* .line-2{
     border-left: 2px solid white;
     height: 400px;
     position: absolute;
     left: 50%;
     top: 160%;
-    height:400px;
+    height:400px; */
 }
  /* .line-1{
     border-left: 2px solid white;
@@ -121,7 +121,7 @@ main{
 .photo-1{
     color: #fff;
     width: 65%;
-    margin-left: 115px;
+    margin-left: 118px;
    padding-top:130px;
     
 }
