@@ -1,0 +1,138 @@
+.footer{
+    background-color: #1F2833;
+    grid-column: 1/-1 ;
+    margin-left: -50px;
+    width: 109%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 130px 60px 60px 60px 60px 60px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+   
+}
+.footer .add p{
+    margin-bottom:0rem;
+}
+.add{
+   
+    color: #ffffff
+    ;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.add-1{
+    top: 13px;
+    font-size:15px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-weight:bold;
+
+}
+.add-2{
+ 
+    font-size:11px;
+    font-family: Montserrat;
+    font-weight:bold;
+    color: aqua;
+
+}
+
+.log{
+   
+    text-align: center;
+    color: #ffffff
+    ;
+    margin-top: 40px;
+    
+
+
+}
+.plog{
+   
+    font-size:15px;
+    font-family: Montserrat;
+    font-weight:bold;
+}
+.plog-1{
+    font-size:11px;
+    font-family: Montserrat;
+    font-weight:bold;
+    margin-top: 25px;
+    color: aqua;
+}
+
+.sup{
+    color: #ffffff
+    ;
+     text-align: center;
+     margin-top: 40px;
+    
+     
+}
+.suport{
+    font-size:15px;
+    font-family: Montserrat;
+    font-weight:bold;
+    margin-top: 26px;
+}
+.suport-2{
+    margin-top:20px;
+    height:30px;
+    font-size:11px;
+    font-family: Montserrat;
+    font-weight:bold;
+    margin-top: 20px;
+    color: aqua;
+}
+ .navline {
+    grid-column: 1/-1;
+    font-size:12px;
+    font-weight:bold;
+    margin-top: 35px;
+   
+    display: inline-block; 
+    font-family: Montserrat;
+     width: 100%; 
+ }
+ .navline ul{
+    display: flex;
+    margin-top: 40px;
+    
+    justify-content: center;
+ }
+ .navline ul li{
+     display: inline-block;
+     padding:15px;
+    
+ }
+ .navline ul li a{
+    color:  #FFFFFF;
+ }
+ 
+ .navline ul li a:hover{
+     color:  #A4E4E9;
+ }
+.copy{
+    grid-column: 1/-1;
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    font-family: Montserrat;
+    font-weight:bold;
+    font-size: 15px;
+}
+.social{
+    grid-column: 1/-1;
+   
+    /* text-align: center; */
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    margin-top: 90px;
+}
+ .social img{
+     padding:15px;
+ }

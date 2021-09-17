@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none  !important;
+    list-style: none;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: monsterrat;
+
+}
+
+.big-rect{
+    background-image: url("https://d2kq0urxkarztv.cloudfront.net/6115365089b24b03933e5ffb/3039667/upload-21d7070c-4256-4226-87da-2951d6eda4e1.jpg ");
+    background-repeat: no-repeat;
+    background-size :cover;
+    height: 600px;
+    
+}
+
+.main-content{
+    background-color: rgba(70, 105, 126,0.84);
+    height: 530px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 0.8;
+
+}
+.ra-one{
+    color: white;
+    opacity: 1;
+    margin-left:70px;
+    margin-top: 90px;
+    float: left;
+    width: 40%;
+
+}
+#Istpara{
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    /* position:fixed; */
+    margin-left:135px;
+    margin-top: 100px;
+    float: left;
+    width: 40%;
+    
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    float: right;
+    width: 20%;
+
+}
+#carouselExampleControls{
+    align-items: flex-end;
+}
+.enquirybtn{
+    position: fixed;
+    bottom: 200px;
+    right: 0px;
+    /* right: 50px; */
+}
+.enquirybtn a{
+    width: 45px;
+    height: 45px;
+    background-color: #A4E4E9;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.enquirybtn a i{
+    color: white ;
+    line-height: 42px;
+
+}
+.enquirybtn:hover{
+    background-color:#D6E7EA ;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.enquiry{
+    background-color: aqua;
+
+}
+.content-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+.gotopbtn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+.gotopbtn a{
+    width: 45px;
+    height: 45px;
+    background-color: #A4E4E9;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.gotopbtn a span{
+    color: white ;
+    line-height: 42px;
+
+}
+.gotopbtn:hover{
+    background-color:#D6E7EA ;
+    border-radius: 5px;
+}
+

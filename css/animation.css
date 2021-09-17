@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+#Istpara{
+    margin-top: 50px;
+    animation: move 4s 2;
+    position: relative;
+    opacity: 1;
+}
+@keyframes move {
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    25%{
+        opacity: 0.25;
+        top: 0px;
+    }
+    50%{
+        opacity: 0.75;
+        top:0px;
+    }
+    100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+#IIndpara{
+    margin-left: 40px;
+    animation:bottom 4s 2;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes bottom {
+    0%{
+        opacity: 0;
+        bottom: -25px;
+    }
+    25%{
+        opacity: 0.25;
+        bottom: 0px;
+    }
+    50%{
+        opacity: 0.5;
+        bottom: 0px;
+    }
+    75%{
+        opacity: 1;
+        bottom: 0px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+
+
+

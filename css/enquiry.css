@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.enquiry{
+    font-family: 'Montserrat', sans-serif;
+    width:30%;
+    padding: 40px;
+    background-color: #EDEDEF;
+    color:#3E6175 ;
+    border-radius: 25px;
+    margin-left: 35vw;
+}
+#heading{
+    font-size: 25px;
+    margin-left: 4vw;
+}
+
+.enquiry .enquiry-box{
+    position:relative;
+    width: 100%;
+    margin-top: 10px;
+    border-color: black;
+
+    
+}
+.enquiry .enquiry-box .input-field{
+    width: 100%;
+    background-color: #EDEDEF;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #3E6175;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    background-color:#3E6175 ;
+    margin-top: 18px;
+    margin-left: 5vw;
+    width: 60%;
+    height:40px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="css/enquiry.css">
+    <link rel="stylesheet" href="modal.css">
+
+    <title>Document</title>
+    <style>.enquirybtn{
+        position: fixed;
+        bottom: 50vh;
+        right: 0px;
+    }
+    .enquirybtn a{
+        width: 45px;
+        height: 45px;
+        background-color: #A4E4E9;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+    }
+    .enquirybtn a i{
+        color: white ;
+        line-height: 42px;
+    
+    }
+    .enquirybtn:hover{
+        background-color:#D6E7EA ;
+        border-radius: 5px;
+        font-size: 2px;
+    }
+    .enquiry{
+        display: none;
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    }
+    #click:checked ~ .enquiry{
+        opacity:1;
+        visibility: visible;
+    }
+    
+    
+
+</style>
+</head>
+<body>
+    <div class="center">
+        <input type="checkbox" id="show">
+        <label for="show" class="show-btn">  <a href="#" for="click" id ="click"><i class='fas fa-user-alt' style='font-size:24px'></i> </a>
+        </label>
+        <div class="container">
+           <label for="show" class="close-btn fas fa-times" title="close"></label>
+           <div class="enquiry">
+            <h1 id="heading">•  ENQUIRY FORM  •</h1>
+            <div class="enquiry-box">
+                <form for="click">
+                    <input for="click" type="text" class="data" placeholder="• Name">
+                    <input for="click" type="email" class="data" placeholder="• Email Address">
+                    <input for="click" type="number" class="data" placeholder="• Contact">
+                    <textarea for="click" type="text" class="input-field textarea-field" placeholder="• Your Query"></textarea>
+                    <button for="click" type="button" class="btn">SUBMIT</button>
+        
+                </form>
+            </div>
+        </div>
+        </div>
+     </div>
+    
+    <div class="enquirybtn">
+      </div>
+    
+     
+    
+</body>
+</html>
