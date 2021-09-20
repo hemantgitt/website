@@ -1,4 +1,4 @@
-.footer{
+ .footer{
     background-color: #1F2833;
     grid-column: 1/-1 ;
     margin-left: -50px;
@@ -63,8 +63,7 @@
 }
 
 .sup{
-    color: #ffffff
-    ;
+    color: #ffffff;
      text-align: center;
      margin-top: 40px;
     
@@ -125,7 +124,7 @@
 .social{
     grid-column: 1/-1;
    
-    /* text-align: center; */
+    text-align: center;
     list-style: none;
     display:flex;
     align-items: center;
@@ -135,4 +134,4 @@
 }
  .social img{
      padding:15px;
- }
+ }   

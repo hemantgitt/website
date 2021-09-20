@@ -8,16 +8,17 @@
     padding: 0;
     text-decoration: none;
     box-sizing: none;
+    scroll-behavior: smooth;
+
 }
 .logo{
     margin-top: 8px;
     margin-left: 60px;
-    height: 30px;
 }
 
 nav{
     background-color: #F4F4F4;
-    height: 60px;
+    height: 70px;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -88,8 +89,12 @@ main{
     transform: matrix(1,0,0,1,0,31);
     /* z-index: 304; */
     font-family: 'Montserrat', sans-serif;
-    
+    animation-name: about-us;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: 1;
 }
+
 .para{
     font-weight: bold;
     font-size : 15px;
@@ -100,8 +105,10 @@ main{
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
     margin-bottom: 43px;
-    
+    animation-name: para;
+    animation-duration: 2s;
 }
+
 .link{
     /* z-index: 303; */
     opacity: 1;
@@ -109,9 +116,14 @@ main{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     margin-left: -60px;
-    /* padding-top: 30px;
-    margin-left: 90px; */
+    animation-name : link;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    position: relative;
+
 }
+
     
     
 
@@ -124,6 +136,7 @@ main{
     /* margin-top: 100px; */
     padding-top: 248px;
     margin-left: 70px;
+    width: 490px;
     
     
 }
@@ -139,7 +152,7 @@ main{
 .head-1{
      height: 100px; 
     width: 60;
-    left: 439px;
+    /* margin-left: 439px; */
     /* top: 81; */
     z-index: 304px;
     font-weight: bold;
@@ -148,8 +161,12 @@ main{
     margin-left: 160px;
     margin-top: -70px;
     font-family: 'Montserrat', sans-serif;
-
+    animation-name: vision;
+    animation-duration: 3s;
+    position:relative;
+    animation-iteration-count: 1;
 }
+
 .para-1{
     font-weight: bold;
     font-size : 13px;
@@ -158,6 +175,8 @@ main{
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
     margin-bottom: 43px;
+    animation-name : para;
+    animation-duration: 2s;
    
     
     /* padding-top: 20px;
@@ -168,6 +187,11 @@ main{
     font-weight: bold;
     margin-left: 168px;
     font-family: 'Montserrat', sans-serif;
+    animation-name : link;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    position: relative;
 }
 /* .sp{
     background-color:blue
@@ -417,4 +441,25 @@ main{
  .social img{
      padding:15px;
  }
- 
+ .gotopbtn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+.gotopbtn a{
+    width: 45px;
+    height: 45px;
+    background-color: #A4E4E9;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.gotopbtn a span{
+    color: white ;
+    line-height: 42px;
+
+}
+.gotopbtn:hover{
+    background-color:#D6E7EA ;
+    border-radius: 5px;
+}

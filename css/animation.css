@@ -53,6 +53,52 @@
     }
 }
 
-
+@keyframes about-us{
+    0%{
+        opacity:0;
+        top:-80px;
+      }
+     /* 50%{
+        top:-50px
+     } */
+    100%{
+        opacity:1;
+        top: 0px;
+    }
+}
+@keyframes vision{
+    0%{
+        top:-80px;
+        opacity: 0;
+      }
+     
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes para{
+    0%{
+        
+        opacity: 0;
+      }
+    50%{
+        
+        opacity: 0.5;
+      }
+     
+    100%{
+        
+        opacity: 1;
+    }
+}
+@keyframes link{
+    from{
+        left: -40px;
+    }
+    to{
+        left: 0px;
+    }
+}
 
 
