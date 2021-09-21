@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,900;1,900&display=swap'); */
+ /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,900;1,900&display=swap');  
 
 *{
     margin: 0;
@@ -18,15 +18,15 @@
 .logo{
     margin-top: 8px;
     margin-left: 60px;
-    height: 30px;
 }
 
-/* nav{
+nav{
     background-color: #F4F4F4;
-    height: 70px;
+    height: 60px;
     width: 100%;
     position: fixed;
     z-index: 1;
+    /* top: -20px; */
 }
 
 nav ul{
@@ -38,7 +38,7 @@ nav ul li{
     
     display: inline-block;
     line-height :5px;
-     margin :0 2px; 
+    /* margin :0 2px; */
     margin-top:32px;
     margin-right: 50px;
     text-align: center;
@@ -56,7 +56,7 @@ nav ul li a:hover{
     opacity: 0.9;
     transform:scale(1.2);
     
-} */
+}
 
  .topimg{
     width: 100%;
@@ -89,29 +89,46 @@ main{
     margin-left: 40px;
     margin-right: 95px;
     line-height: 25px;
+    animation-name: serviceh;
+    /* animation-iteration-count: 1; */
+    animation-duration: 2s;
+
 }
+@keyframes serviceh {
+
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
+
 .photo{
     color: #fff;
     width: 75%;
     margin-left: 127px;
-    padding-top: 90px;
-/* }
+    padding-top: 50px;
+ }
  .line{
     border-left: 2px solid white;
     height: 435px;
-    position: absolute;
+    /* position:relative; */
     left: 50%;
-    top: 32%;
+    top: 93%;
     position: absolute; 
-} */
+} 
 /* .line-2{
     border-left: 2px solid white;
     height: 400px;
-    position: absolute;
+    position:absolute;
     left: 50%;
     top: 160%;
-    height:400px; */
-}
+    height:400px; 
+} */
+
  /* .line-1{
     border-left: 2px solid white;
     height: 400px;
@@ -123,7 +140,7 @@ main{
     color: #fff;
     width: 65%;
     margin-left: 118px;
-   padding-top:130px;
+    padding-top: 73px;
     
 }
 .photo-2{
@@ -167,7 +184,7 @@ main{
 
     width: 50%;
     margin-left: 120px;
-    padding-top: 90px;
+    padding-top: 125px;
     color: #fff;
 
 }
@@ -220,7 +237,7 @@ main{
 .head-2{
     font-family: 'Montserrat', sans-serif;
     width: 447px;
-    margin-top: 40px;
+    margin-top: -24px;
 
     font-size: 40px;
     margin-right: 50px;
@@ -271,8 +288,7 @@ main{
 
     font-size: 15px;}
     .btn-3{
-        font-family: Montserrat;
-        
+        font-family: 'Montserrat', sans-serif;
         font-size: 12px;
         border-radius: 30px;
         width: 110px;

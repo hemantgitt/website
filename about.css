@@ -1,8 +1,8 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,900;1,900&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,900;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@
 
 nav{
     background-color: #F4F4F4;
-    height: 70px;
+    height: 60px;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -52,7 +52,7 @@ nav ul li a:hover{
     opacity: 0.9;
     transform:scale(1.2);
     
-}
+} 
 main{
     width: 100%;
     height: 100%;
@@ -108,23 +108,42 @@ main{
     animation-name: para;
     animation-duration: 2s;
 }
+.lorem{
+    display:none;
+}
 
-.link{
+.btn{
     /* z-index: 303; */
+    font-size: 12px;
     opacity: 1;
-    color: #196478;
+    cursor: pointer;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    margin-left: -60px;
+    margin-left: -64px;
     animation-name : link;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     position: relative;
-
+    border-radius: 20px;
+    width: 110px;
+    height:35px;
+    border:1px white solid;
+    background-color: #1F2833;
+    text-decoration: none;
+    color: white;
+}
+/* .know{
+    text-decoration: none;
+    color: white;
+} */
+.btn:hover{
+    background-color: brown;
 }
 
-    
+ .showMore .more-text{
+     display: inline;
+ }   
     
 
 /* .link{
@@ -182,7 +201,7 @@ main{
     /* padding-top: 20px;
     margin-left: 150px; */
 }
-.link-1{
+.btn-1{
     color: #196478;
     font-weight: bold;
     margin-left: 168px;
@@ -192,7 +211,21 @@ main{
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     position: relative;
+    border-radius: 20px;
+    width: 110px;
+    height:35px;
+    border:1px white solid;
+    background-color: #1F2833;
+
 }
+.know{
+    text-decoration: none;
+    color: white;
+}
+.btn-1:hover{
+    background-color: brown;
+}
+
 /* .sp{
     background-color:blue
 } */
