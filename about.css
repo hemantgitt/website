@@ -108,9 +108,9 @@ main{
     animation-name: para;
     animation-duration: 2s;
 }
-.lorem{
+/* .lorem{
     display:none;
-}
+} */
 
 .btn{
     /* z-index: 303; */
