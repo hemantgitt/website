@@ -84,7 +84,7 @@ main{
 .hpara{
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 95px;
@@ -135,6 +135,27 @@ main{
     left: 50%;
     top: 282%;
     
+}
+.line-4{
+    border-left: 2px solid white;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 356%;
+}
+.line-5{
+    border-left: 2px solid white;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 428%;
+}
+.line-6{
+    border-left: 2px solid white;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 498%;
 }
 
  .line-1{
