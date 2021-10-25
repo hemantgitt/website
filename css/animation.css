@@ -8,7 +8,7 @@
 @keyframes move {
     0%{
         opacity: 0;
-        top: -50px;
+        top: -70px;
     }
     25%{
         opacity: 0.25;
@@ -33,7 +33,7 @@
 @keyframes bottom {
     0%{
         opacity: 0;
-        bottom: -25px;
+        bottom: -45px;
     }
     25%{
         opacity: 0.25;

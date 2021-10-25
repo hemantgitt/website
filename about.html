@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/pop-up.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
  
   <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- <script src="aboutpop.js"></script> -->
 
   
 
@@ -41,15 +43,32 @@
     </div>
     <div class="Card-1">
 
-      <img src="images/card-1.jpg" width="300px" height="290px" style="padding-top: 10px;">
+      <img src="images/card-1.jpg" width="350px" height="350px" style="padding-top: 10px;">
     </div>
-    <div class="text-1">
+    <div class="text-1" id="blur">
       <h1 class="head">ABOUT US</h1>
       <p class="para">As the leading end-to-end IT services and solutions company, Blue9 Technologies, revolutionize IT Services for
         clients by modernizing and integrating their mainstream IT, and by deploying digital solutions at a scale to
         produce better business outcomes.</p>
-      <button class="btn"> <a class="know" href="aboutusall.html">KnowMore</a></button>
+<div>
+  <button class="btn"> <a class="know" href="aboutusall.html">KnowMore</a></button>
+
+     <div class="modal" id="modal">
+
+         <div class="modal-header">
+
+           <div class="title">Hello</div>
+
+           <button data-close-button class="close-button">X</button>
+
+         </div>
+         <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae illo modi neque blanditiis, hic quae fuga quisquam ex quas aliquam.</div>
+     </div>
+    
+      
     </div>
+    <div class="active" id="overlay"></div>
+  </div>
     <div class="text-2">
       <h1 class="head-1">VISION</h1>
       <p class="para-1">To add value to our “Client Partner’s” business processes, help them to make more efficient and responsive… and
@@ -57,7 +76,7 @@
         <button class="btn-1"> <a class="know" href="">KnowMore</a></button>
     </div>
     <div class="Card-2">
-      <img src="images/card-2.jpg" width="300px" height="290px">
+      <img src="images/card-2.jpg" width="340px" height="290px">
     </div>
     <!-- <div class="sp"></div> -->
     <div class="marquee">
@@ -111,8 +130,8 @@
          
         
           <h1 id="shead">WHAT WE ACTUALLY DO</h1>
-          <p id="spara">End to End IT services</p>
-          <p  id="spara2">Analytics and BI services</p>
+          <p id="spara"><a class="ed" href="">* End to End IT Services</a></p>
+          <p  id="spara2"><a class="edd" href="">* Analytics and BI Services</a> </p>
 
           
        </div>
@@ -174,9 +193,9 @@
 
     <div class="social">
 
-        <li><a href=""> <img src="images/fb.png" width="40px" height="40px"></a> </li>
-        <li><a href=""> <img src="images/insta.png" width="40px" height="40px"> </a> </li>
-        <li><a href=""> <img src="images/linkedin.png" width="40px" height="40px"> </a> </li>
+        <li><a href="https://www.facebook.com/Blue9technologies/"> <img src="images/fb.png" width="60px" height="60px"></a> </li>
+        <li><a href="https://instagram.com/blue9technologies?utm_medium=copy_link"> <img src="images/insta.png" width="60px" height="60px"> </a> </li>
+        <li><a href="https://www.linkedin.com/company/blue9-technologies/"> <img src="images/linkedin.png" width="60px" height="60px"> </a> </li>
     </div>
 </div>
 

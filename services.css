@@ -109,7 +109,7 @@ main{
 .photo{
     color: #fff;
     width: 75%;
-    margin-left: 127px;
+    margin-left: 225px;
     padding-top: 50px;
  }
  .line{
@@ -117,28 +117,36 @@ main{
     height: 435px;
     /* position:relative; */
     left: 50%;
-    top: 93%;
+    top: 68%;
     position: absolute; 
 } 
-/* .line-2{
+.line-2{
     border-left: 2px solid white;
-    height: 400px;
+    height: 450px;
     position:absolute;
     left: 50%;
-    top: 160%;
-    height:400px; 
-} */
-
- /* .line-1{
+    top: 211%;
+    
+}
+.line-3{
     border-left: 2px solid white;
-    height: 400px;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 282%;
+    
+}
+
+ .line-1{
+    border-left: 2px solid white;
+    height: 450px;
     position: absolute;
-    left: 45%;
-    top: 40%;  
-} */
+    left: 50%;
+    top: 135%;  
+}
 .photo-1{
     color: #fff;
-    width: 65%;
+    /* width: 65%; */
     margin-left: 118px;
     padding-top: 73px;
     
@@ -147,7 +155,7 @@ main{
     color: #fff;
     width: 100%;
     margin-top: 193px;
-    margin-left: 127px;
+    margin-left: 225px;
 
 }
 .photo-3{
@@ -160,7 +168,7 @@ main{
 .photo-4{
     color: #fff;
     width: 67%;
-    margin-left: 127px;
+    margin-left: 225px;
     margin-top:348px;
 }
 .photo-5{
@@ -172,10 +180,11 @@ main{
 .photo-6{
     color: #fff;
     width: 67%;
-    margin-left: 127px;
+    margin-left: 225px;
     margin-top: 495px;
 }
 .text{
+   
     width: 60%;
     margin-left: 30px;
     padding-top: 80px;
@@ -183,16 +192,17 @@ main{
 .text-1{
 
     width: 50%;
-    margin-left: 120px;
+    margin-left: 225px;
     padding-top: 125px;
     color: #fff;
 
 }
 .head-1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 80px;
     color: #fff;
+    font-weight: 500;
 
    
 }
@@ -200,7 +210,7 @@ main{
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
      margin-left: 80px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 25px;
     color: #fff;
 
@@ -238,6 +248,8 @@ main{
     font-family: 'Montserrat', sans-serif;
     width: 447px;
     margin-top: -24px;
+    font-weight: 500;
+    font-size:50px;
 
     font-size: 40px;
     margin-right: 50px;
@@ -246,7 +258,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     line-height: 25px;
-    font-size: 15px;
+    font-size: 17px;
 }
 .btn-2{
     
@@ -273,14 +285,15 @@ main{
 .head-3{
     font-family: 'Montserrat', sans-serif;
 
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 500;
     width: 486px;
     margin-right: 50px;
     margin-left: 80px;
 }
 .para-3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     width: 424px;
     margin-top: 20px;
     line-height: 25px;
@@ -316,7 +329,8 @@ main{
 .head-4{
     font-family: 'Montserrat', sans-serif;
     margin-left: 80px;
-    font-size: 40px;
+   font-weight: 500;
+   font-size: 50px;
     width: 454px;
 }
 .para-4{
@@ -324,7 +338,8 @@ main{
     margin-top: 20px;
     line-height: 25px;
     margin-left: 80px;
-    font-size: 15px;}
+    font-size:17px;
+}
     .btn-4{
         font-family: Montserrat;
         margin-top:25px;
@@ -348,20 +363,21 @@ main{
 .text-5{
     color: #fff;
     width: 50%;
-    margin-left: 120px;
+    margin-left: 215px;
     margin-top:410px;
 }
 .head-5{
     font-family: 'Montserrat', sans-serif;
 
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 500;
 }
 .para-5{
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     line-height: 25px;
 
-    font-size: 15px;}
+    font-size: 17px;}
     .btn-5{
         font-family: 'Montserrat', sans-serif;
 
@@ -390,16 +406,20 @@ main{
 }
 .head-6{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 500;
     margin-left: 80px;
    
 }
 .para-6{
     font-family: 'Montserrat', sans-serif;
+    /* font-size: 50px;
+    font-weight:500; */
     margin-top: 20px;
     line-height: 25px;
     margin-left: 85px;
-    font-size: 15px;}
+    font-size: 17px;
+}
  .btn-6{
         
     
@@ -426,13 +446,13 @@ main{
  .text-7{
     color: #fff;
     width: 50%;
-    margin-left: 120px;
+    margin-left: 215px;
     margin-top: 240px;
         }
         .head-7{
             font-family: 'Montserrat', sans-serif;
-
-            font-size: 40px;
+             font-weight: 500;
+            font-size: 50px;
             width: 435px;
         }
         .para-7{
@@ -440,7 +460,7 @@ main{
             margin-top: 20px;
             line-height: 25px;
 
-            font-size: 15px;
+            font-size: 17px;
         }
             .btn-7{
                 font-family: 'Montserrat', sans-serif;
@@ -477,16 +497,16 @@ main{
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 380px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 .lete{
-    font-size: 22px;
+    font-size: 30px;
     margin-left: 50px;
     margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 .ertphoto{
     /* display: inline-block; */
@@ -516,6 +536,30 @@ main{
 }
 
  */
+ .gotopbtn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+.gotopbtn a{
+    width: 45px;
+    height: 45px;
+    background-color: #A4E4E9;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.gotopbtn a span{
+    color: white ;
+    line-height: 42px;
+
+}
+.gotopbtn:hover{
+    background-color:#D6E7EA ;
+    border-radius: 5px;
+}
+
+
 
  
 

@@ -62,6 +62,7 @@ main{
     grid-gap : 20px;
     
 }
+
 .header{
     grid-column: 1/-1;
     /* background-color: gray; */
@@ -70,7 +71,7 @@ main{
 }
 .Card-1{
     /* background-color: aqua; */
-    margin-left: 103px;
+    margin-left: 190px;
     margin-right: 200px;
     height: 300px;
 }
@@ -78,7 +79,9 @@ main{
    
     margin-right: 200px;
     margin-top: 20px;
+    margin-left: 80px;
 }
+
 .head{
     font-weight: 700;
     font-size: 48px;
@@ -96,8 +99,8 @@ main{
 }
 
 .para{
-    font-weight: bold;
-    font-size : 15px;
+    font-weight: 600;
+    font-size : 17px;
     color:  #84A9B5;
     padding-top: 20px;
     margin-left: -60px;
@@ -133,10 +136,10 @@ main{
     text-decoration: none;
     color: white;
 }
-/* .know{
+.know{
     text-decoration: none;
     color: white;
-} */
+}
 .btn:hover{
     background-color: brown;
 }
@@ -155,13 +158,13 @@ main{
     /* margin-top: 100px; */
     padding-top: 248px;
     margin-left: 70px;
-    width: 490px;
+    /* width: 490px; */
     
     
 }
 .Card-2{
      /* background-color: green; */
-    margin-left: 140px; 
+    margin-left: 70px; 
     margin-right: 200px;
     height: 290px;
     width: 300px;
@@ -177,7 +180,7 @@ main{
     font-weight: bold;
     font-size: 60px;
     color: #196478;
-    margin-left: 160px;
+    margin-left: 120px;
     margin-top: -70px;
     font-family: 'Montserrat', sans-serif;
     animation-name: vision;
@@ -187,10 +190,10 @@ main{
 }
 
 .para-1{
-    font-weight: bold;
-    font-size : 13px;
+     font-weight: 600; 
+    font-size : 17px;
     color:  #84A9B5;
-    margin-left: 170px;
+    margin-left: 120px;
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
     margin-bottom: 43px;
@@ -204,7 +207,7 @@ main{
 .btn-1{
     color: #196478;
     font-weight: bold;
-    margin-left: 168px;
+    margin-left: 117px;
     font-family: 'Montserrat', sans-serif;
     animation-name : link;
     animation-duration: 2s;
@@ -272,7 +275,7 @@ main{
     /* background-color: red; */
     display: inline-flex;
    background-size: 1263px 370px;
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
     background-image: url("images/whatwedo.jpg");
     /* z-index: 302; */
     grid-column: 1/-1 ;
@@ -290,46 +293,77 @@ main{
 .space .space1 img{
     margin-top : 55px;
      margin-left:225px;
-     height: 225px;
-     width :300px;
+     height: 270px;
+     width :350px;
 }
 
 .space2{
     margin-top: 65px;
     display: inline-block;
-    color: whitesmoke;
+   
 }
 #shead{
+    color: whitesmoke;
     width: 100%;
     height:17px;
     font-weight: bold;
-    font-size : 30px;
+    font-size : 40px;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 50px;
     display: inline-block;
 }
 #spara{
-    width: 208px;
+   
+    /* width: 208px; */
     height:29px;
     left: 503px;
     top: 936px;
-    z-index: 345;
-    padding-top: 10px;
+    /* z-index: 345; */
+    padding-top: 50px;
+     margin-left: 34px;
+}
+.ed{
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    font-size: 20px;
+    transition: 1s;
 }
+.ed:hover{
+    font-size: 25px;
+    transform: scale(1.3);
+    color: wh
+  
+}
+
+
 #spara2{
+    /* color: whitesmoke;
     width: 208px;
-    height:29px;
+    height:29px; */
     left: 503px;
-    top: 936px;
-    z-index: 345;
-    padding-top: 10px;
+    /* top: 936px; */
+    /* z-index: 345; */
+    padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 31px;
 }
+.edd{
+         color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        transition: 1s;
+    
+}
+.edd:hover{
+    font-size: 25px;
+    transform: scale(1.3);
+    color: white;
+  
+}
+
 .Onimg{
     grid-column:1/-1;
     /* background-color: gray; */
@@ -364,14 +398,14 @@ main{
     font-size:15px;
     margin-left: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
 
 }
 .add-2{
  
     font-size:11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
     color: aqua;
 
 }
@@ -390,12 +424,12 @@ main{
    
     font-size:15px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
 }
 .plog-1{
     font-size:11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
     margin-top: 25px;
     color: aqua;
 }
@@ -411,7 +445,7 @@ main{
 .suport{
     font-size:15px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
     margin-top: 26px;
 }
 .suport-2{
@@ -419,14 +453,14 @@ main{
     height:30px;
     font-size:11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
     margin-top: 20px;
     color: aqua;
 }
  .navline {
     grid-column: 1/-1;
     font-size:12px;
-    font-weight:bold;
+    font-weight:500;
     margin-top: 35px;
    
     display: inline-block; 
@@ -457,7 +491,7 @@ main{
     text-align: center;
     margin-top: 75px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
+    font-weight:500;
     font-size: 15px;
 }
 .social{
@@ -473,7 +507,10 @@ main{
 }
  .social img{
      padding:15px;
+     transition: 1s;
  }
+
+
  .gotopbtn{
     position: fixed;
     bottom: 40px;

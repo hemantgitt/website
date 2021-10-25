@@ -16,7 +16,7 @@ body{
     box-shadow: 10px 10px  10px  10px black;
 }
 .about-para{
-      font-size:17px;
+      font-size:19px;
       /* font-weight:bold; */
       padding-top: 56px;
       color: #ffffff;
@@ -56,7 +56,7 @@ body{
 @keyframes about-us{
     0%{
         opacity:0;
-        top:-80px;
+        top:-50px;
       }
      /* 50%{
         top:-50px
