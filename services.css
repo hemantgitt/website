@@ -68,7 +68,9 @@ main{
    width: 100%;
    height: 100%;
    display:grid;
-   grid-template-rows: 200px 500px 500px 500px 500px 500px  500px 500px 500px 500px 130px 100px 100px 100px 10px 200px;
+   grid-template-rows: 200px 500px 500px 500px 500px 500px  
+   500px 500px 500px 500px 130px 100px 100px 
+   100px 10px 200px;
    grid-template-columns: repeat(2 , 1fr);
   
    
@@ -117,7 +119,7 @@ main{
     height: 435px;
     /* position:relative; */
     left: 50%;
-    top: 68%;
+    top: 71%;
     position: absolute; 
 } 
 .line-2{
@@ -125,7 +127,7 @@ main{
     height: 450px;
     position:absolute;
     left: 50%;
-    top: 211%;
+    top: 228%;
     
 }
 .line-3{
@@ -133,7 +135,7 @@ main{
     height: 450px;
     position:absolute;
     left: 50%;
-    top: 282%;
+    top: 306%;
     
 }
 .line-4{
@@ -141,21 +143,21 @@ main{
     height: 450px;
     position:absolute;
     left: 50%;
-    top: 356%;
+    top: 390%;
 }
 .line-5{
     border-left: 2px solid white;
     height: 450px;
     position:absolute;
     left: 50%;
-    top: 428%;
+    top: 468%;
 }
 .line-6{
     border-left: 2px solid white;
     height: 450px;
     position:absolute;
     left: 50%;
-    top: 498%;
+    top: 546%;
 }
 
  .line-1{
@@ -163,19 +165,19 @@ main{
     height: 450px;
     position: absolute;
     left: 50%;
-    top: 135%;  
+    top: 156%;  
 }
 .photo-1{
     color: #fff;
     /* width: 65%; */
     margin-left: 118px;
-    padding-top: 73px;
+    padding-top: 235px;
     
 }
 .photo-2{
     color: #fff;
     width: 100%;
-    margin-top: 193px;
+    margin-top: 330px;
     margin-left: 225px;
 
 }
@@ -183,26 +185,26 @@ main{
     color: #fff;
     width: 75%;
     margin-left:115px;
-    margin-top: 250px;
+    margin-top: 430px;
     
 }
 .photo-4{
     color: #fff;
     width: 67%;
     margin-left: 225px;
-    margin-top:348px;
+    margin-top:612px;
 }
 .photo-5{
     color: #fff;
     width: 65%;
     margin-left:115px;
-    margin-top: 428px;
+    margin-top: 735px;
 }
 .photo-6{
     color: #fff;
     width: 67%;
     margin-left: 225px;
-    margin-top: 495px;
+    margin-top: 865px;
 }
 .text{
    
@@ -214,13 +216,13 @@ main{
 
     width: 50%;
     margin-left: 225px;
-    padding-top: 125px;
+    padding-top: 260px;
     color: #fff;
 
 }
 .head-1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     margin-left: 80px;
     color: #fff;
     font-weight: 500;
@@ -228,10 +230,10 @@ main{
    
 }
 .para-1{
-    margin-top: 20px;
+    margin-top: 34px;
     font-family: 'Montserrat', sans-serif;
      margin-left: 80px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
     color: #fff;
 
@@ -263,23 +265,23 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
-    margin-top:190px;
+    margin-top:330px;
 }
 .head-2{
     font-family: 'Montserrat', sans-serif;
     width: 447px;
     margin-top: -24px;
     font-weight: 500;
-    font-size:50px;
+    font-size:55px;
 
     font-size: 40px;
     margin-right: 50px;
 }
 .para-2{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+    margin-top: 34px;
     line-height: 25px;
-    font-size: 17px;
+    font-size: 18px;
 }
 .btn-2{
     
@@ -306,7 +308,7 @@ main{
 .head-3{
     font-family: 'Montserrat', sans-serif;
 
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500;
     width: 486px;
     margin-right: 50px;
@@ -314,9 +316,9 @@ main{
 }
 .para-3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     width: 424px;
-    margin-top: 20px;
+    margin-top: 34px;
     line-height: 25px;
     margin-left: 80px;
 
@@ -345,21 +347,21 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
-    margin-top: 335px;
+    margin-top: 595px;
 }
 .head-4{
     font-family: 'Montserrat', sans-serif;
     margin-left: 80px;
    font-weight: 500;
-   font-size: 50px;
+   font-size: 55px;
     width: 454px;
 }
 .para-4{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+    margin-top: 34px;
     line-height: 25px;
     margin-left: 80px;
-    font-size:17px;
+    font-size:18px;
 }
     .btn-4{
         font-family: Montserrat;
@@ -385,20 +387,21 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 215px;
-    margin-top:410px;
+    margin-top:730px;
 }
 .head-5{
     font-family: 'Montserrat', sans-serif;
 
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500;
 }
 .para-5{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+    margin-top: 34px;
     line-height: 25px;
 
-    font-size: 17px;}
+    font-size: 18px;
+}
     .btn-5{
         font-family: 'Montserrat', sans-serif;
 
@@ -423,11 +426,11 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 30px;
-    margin-top: 490px;
+    margin-top: 855px;
 }
 .head-6{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500;
     margin-left: 80px;
    
@@ -436,10 +439,10 @@ main{
     font-family: 'Montserrat', sans-serif;
     /* font-size: 50px;
     font-weight:500; */
-    margin-top: 20px;
+    margin-top: 34px;
     line-height: 25px;
     margin-left: 85px;
-    font-size: 17px;
+    font-size: 18px;
 }
  .btn-6{
         
@@ -468,20 +471,20 @@ main{
     color: #fff;
     width: 50%;
     margin-left: 215px;
-    margin-top: 240px;
+    margin-top: 445px;
         }
         .head-7{
             font-family: 'Montserrat', sans-serif;
              font-weight: 500;
-            font-size: 50px;
+            font-size: 55px;
             width: 435px;
         }
         .para-7{
             font-family: 'Montserrat', sans-serif;
-            margin-top: 20px;
+            margin-top: 34px;
             line-height: 25px;
 
-            font-size: 17px;
+            font-size: 18px;
         }
             .btn-7{
                 font-family: 'Montserrat', sans-serif;
@@ -508,7 +511,7 @@ main{
     grid-column: 1/-1;
     color: white;
     margin-left: 60px;
-    margin-top : 540px;
+    margin-top : 932px;
     border-radius: 25px;
     height: 240px;
     margin-right: 70px;
