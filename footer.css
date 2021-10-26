@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: 130px 60px 60px 60px 60px 60px;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -395px;
+    margin-top: -399px;
    
 }
 .add{
