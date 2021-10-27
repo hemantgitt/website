@@ -6,18 +6,20 @@
     background-color: #1F2833;
     grid-column: 1/-1 ;
     /* margin-top: 25px; */
-    width: 1091;
+    /* width: 109%; */
     height: 400px;
     display: grid;
     grid-template-rows: 130px 60px 60px 60px 60px 60px;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -399px;
+    /* margin-top: 50px; */
    
+}
+.footer .add p{
+    margin-bottom: 0rem;
 }
 .add{
    
-    color: #ffffff
-    ;
+    color: #ffffff;
     text-align: center;
     margin-top: 40px;
 
@@ -27,16 +29,16 @@
     font-size:15px;
     margin-left: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:500;
+    font-weight:bold;
 
 }
 .add-2{
  
     font-size:11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:500;
+    font-weight:bold;
     color: aqua;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
 }
 
@@ -59,8 +61,8 @@
 .plog-1{
     font-size:11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:500;
-    margin-top: 20px;
+    font-weight:bold;
+    margin-top: 25px;
     color: aqua;
 }
 

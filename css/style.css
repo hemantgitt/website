@@ -10,7 +10,11 @@
     scroll-behavior: smooth;
 }
 
+#footer{
+    margin-top:50px;
+    width: 109%;
 
+}
 body{
     font-family: monsterrat;
 
@@ -126,4 +130,7 @@ body{
     background-color:#D6E7EA ;
     border-radius: 5px;
 }
-
+.footer{
+    width: 109%;
+    margin-left: -50px;
+}
