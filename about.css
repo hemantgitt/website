@@ -17,13 +17,15 @@ width: 100%;
 
 }
 .service{
-    border: 1px solid white;
+    border: 1px solid #1F2833;
+    border-radius: 2px;
     background-color: #1F2833;
     width: 80%;
     height: 104px;
     font-weight: bold;
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: italic;
     margin-top:140px;
     margin-left: 390px;
     color:white;
