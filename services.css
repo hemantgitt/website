@@ -15,6 +15,11 @@
       width: 100%;
     }
 } */
+#footer{
+    margin-top:-400px;
+    width: 100%;
+
+}
 .logo{
     margin-top: 8px;
     margin-left: 60px;
@@ -257,6 +262,9 @@ main{
 }
 .btn-1:hover{
     background-color: brown;
+}
+.footer{
+    margin-top: -400px;
 }
 
 
