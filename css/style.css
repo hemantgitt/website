@@ -9,6 +9,9 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+.footer{
+    margin-left: -50px;
+}
 
 #footer{
     margin-top:50px;

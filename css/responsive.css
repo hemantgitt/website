@@ -1,18 +1,18 @@
 
-@media (max-width: 1140px){
-    /* .logo{
+/* @media (max-width: 1140px){
+    .logo{
         padding-left: 50px;
-    } */
+    }
 
     nav ul li a{
         font-size: 16px;
     }
-    /* . footer{
+    .footer{
         padding: 40px;
         flex-direction: column;
-    } */
-}
-@media (max-width:1110px){
+    }
+} */
+@media (max-width:1140px){
     .checkbtn{
         display:block;
     }
@@ -50,6 +50,9 @@
     }
     #check:checked~ul{
         left: 0;
+    }
+    .big-rect{
+        flex-direction:column;
     }
 }
 @media (max-width:900px){

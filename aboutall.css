@@ -66,3 +66,22 @@ body{
         top: 0px;
     }
 }
+.back{
+    width:25px;
+    height:27px;
+    margin-left:93%;
+    background-color: rgba(212, 18, 18, 0.747);
+    color:black;
+    border: 1px solid black ;
+    display: inline-block;
+    cursor: pointer;
+}
+.back a{
+    color:black;
+
+    padding: 1px;
+    padding-left: 3px ;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
